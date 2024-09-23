@@ -14,7 +14,7 @@ text_rect = text.get_rect(center = (w//2, h//2 +110))
 
 def game_loop():
     clock = pygame.time.Clock()
-    running = True
+    running =  True
     while running:
         display_surface.blit(bg_image, (0,0))
         display_surface.blit(img, cow_rect)
